@@ -19,7 +19,7 @@ level.print_level()
 screen.listen()
 
 screen.onkey(player.up, "Up")
-screen.onkey(player.down, "Down")
+#screen.onkey(player.down, "Down")
 
 game_is_on = True
 while game_is_on:
